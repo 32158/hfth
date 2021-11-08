@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteBase /MIPROYECTO_PHP/
+RewriteRule ^/$ index.php [L]
+RewriteRule ^([a-zA-Z_-]+)/?$ categoriasver3.php?nombreCateg=$1 [L]
